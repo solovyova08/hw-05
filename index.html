@@ -19,6 +19,7 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
     <header class="header">
       <div class="container header-container">
@@ -420,45 +421,29 @@
           <ul class="footer-soc-list">
             <li class="footer-soc-item">
               <a href="" class="footer-soc-link">
-                <svg class="footer-soc-icon" width="24"
-                    height="24">
-                  <use
-                    href="./images/icons.svg#icon-instagram"
-                  
-                  ></use>
+                <svg class="footer-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-soc-item">
               <a href="" class="footer-soc-link">
-                <svg class="footer-soc-icon" width="24"
-                    height="24">
-                  <use
-                    href="./images/icons.svg#icon-twitter"
-               
-                  ></use>
+                <svg class="footer-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-soc-item">
               <a href="" class="footer-soc-link">
-                <svg class="footer-soc-icon" width="24"
-                    height="24">
-                  <use
-                    href="./images/icons.svg#icon-facebook"
-              
-                  ></use>
+                <svg class="footer-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-soc-item">
               <a href="" class="footer-soc-link">
-                <svg class="footer-soc-icon" width="24"
-                    height="24">
-                  <use
-                    href="./images/icons.svg#icon-linkedin"
-          
-                  ></use>
+                <svg class="footer-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
@@ -466,5 +451,87 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button type="submit" class="modal-close-btn">
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+
+        <form name="name" class="modal-form">
+          <label class="modal-label" for="input-name">Name</label>
+          <div class="input-wrap">
+            <input
+              type="text"
+              name="name"
+              class="modal-input"
+              id="input-name"
+            />
+            <svg class="input-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-person-black"></use>
+            </svg>
+          </div>
+        </form>
+
+        <form name="name" class="modal-form">
+          <label class="modal-label" for="input-phone">Phone</label>
+          <div class="input-wrap">
+            <input
+              type="tel"
+              name="name"
+              class="modal-input"
+              id="input-phone"
+            />
+            <svg class="input-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-phone-black"></use>
+            </svg>
+          </div>
+        </form>
+
+        <form name="email" class="modal-form">
+          <label class="modal-label" for="input-email">Email</label>
+          <div class="input-wrap">
+            <input
+              type="email"
+              name="email"
+              class="modal-input"
+              id="input-email"
+            />
+            <svg class="input-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-email-black"></use>
+            </svg>
+          </div>
+        </form>
+
+        <form class="modal-form">
+          <label for="comment" class="modal-label">Comment</label>
+          <textarea
+            class="modal-input textarea"
+            name="comment"
+            id="comment"
+            rows="20"
+            placeholder="Text input"
+          ></textarea>
+        </form>
+
+        <form class="checkbox-form">
+          <input
+            type="checkbox"
+            name="privacy"
+            id="privacy"
+            class="modal-checkbox"
+          />
+          <label for="privacy" class="label-checkbox"
+            >I accept the terms and conditions of the
+            <a href="" class="privacy-link">Privacy Policy</a></label
+          >
+        </form>
+        <button type="submit" class="button-input">Send</button>
+      </div>
+    </div>
   </body>
 </html>
