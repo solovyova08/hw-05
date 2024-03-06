@@ -519,24 +519,32 @@
               <textarea name="user-comment" id="user-comment" placeholder="Text input" class="modal-comment"></textarea>
             </div>
         </div>
-        </form>
 
-
-
-
-    
-
-        <form class="checkbox-form">
-          <input
+        <div class="checkbox-form">
+<input
             type="checkbox"
             name="privacy"
-            id="privacy"
-            class="modal-checkbox"
+            id="user-privacy"
+            class="modal-checkbox visually-hidden"
+            value="true"
           />
-          <label for="privacy" class="label-checkbox"
-            >I accept the terms and conditions of the
+          <label for="user-privacy" class="label-checkbox"
+            ><span class="privacy-true">
+              <svg 
+              class="privacy-icon"
+              width="10"
+              height="8">
+              <use href="./images/icons.svg#icon-Property"></use>
+            </svg>
+          </span>I accept the terms and conditions of the
             <a href="" class="privacy-link">Privacy Policy</a></label
           >
+        </div>
+
+        </form>
+
+        <form class="">
+          
         </form>
         <button type="submit" class="button-input">Send</button>
       </div>
