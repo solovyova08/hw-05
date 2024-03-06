@@ -821,27 +821,12 @@ input {
   stroke: OCEAN, #404bbf;
 }
 
-/* .modal-checkbox:checked {
+.modal-checkbox:checked + .label-checkbox > .privacy-true {
   background-color: #404bbf;
   border: none;
-} */
-
-input[type="checkbox"]:checked {
-  background-color: #404bbf;
-  border: none;
-}
-
-input[type="checkbox"]:checked .privacy-true {
-  background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
-
-/* .modal-checkbox:checked .privacy-true {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-} */
 
 .privacy-link {
   color: #4d5ae5;
