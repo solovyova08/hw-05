@@ -694,7 +694,7 @@ input {
 }
 
 .label-wrap {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .input-icon {
@@ -817,7 +817,9 @@ input {
   border: none;
 }
 
-.modal-checkbox:checked .privacy-icon {
+.modal-checkbox:checked .privacy-true {
+  background-color: #404bbf;
+  border: none;
   fill: #f4f4fd;
 }
 
@@ -848,6 +850,7 @@ input {
   background: var(--IRIS, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 
 .button-input:hover,
