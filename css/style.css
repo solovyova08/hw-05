@@ -823,7 +823,6 @@ input {
 .modal-checkbox:checked + .label-checkbox > .privacy-true {
   background-color: #404bbf;
   border: none;
-  border: none;
   fill: #f4f4fd;
 }
 
