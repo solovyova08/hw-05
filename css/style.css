@@ -815,9 +815,6 @@ input {
 }
 
 .privacy-icon {
-  fill: #404bbf;
-  stroke-width: 1px;
-  stroke: OCEAN, #404bbf;
 }
 
 .modal-checkbox:checked + .label-checkbox > .privacy-true {
